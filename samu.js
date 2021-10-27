@@ -920,7 +920,6 @@ const mda = `
 ╠ *●${prefix}caras*
 ║ _Etiqueta una imagen para detectar caras_
 ║
-║
 ╠ *●${prefix}quemusicaes*
 ║ _Busca el nombre de las canciones que no conozcas_
 ║
@@ -2668,7 +2667,7 @@ case 'b1':
         
         txtt =`Hola ${pushname}\nEscoje tu opcion... `
 
-               buttons1 = [{buttonId:`${prefix}menu`, 
+               buttons1 = [{buttonId:`${prefix}menuofc`, 
                buttonText:{displayText: 'Show Menu'},type:1},
                {buttonId:`${prefix}owner`,buttonText:{displayText:'Owner'},type:1},
                {buttonId:`${prefix}ytadmin`,buttonText:{displayText:'YouTube'},type:1}]
